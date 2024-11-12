@@ -3,7 +3,7 @@ from datetime import datetime
 
 import numpy as np
 
-from . import measure_response_matrix
+from .measure_response_matrix import measure_response_matrix
 from ..data.context import AcceleratorObjects
 
 
