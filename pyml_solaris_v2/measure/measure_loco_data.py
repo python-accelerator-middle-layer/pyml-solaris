@@ -4,7 +4,10 @@ from datetime import datetime
 from shutil import copy
 from os import makedirs
 
-from . import measure_dispersion, measure_bpm_response, monitor_bpm
+from .measure_dispersion import measure_dispersion
+from .measure_bpm_response import measure_bpm_response
+from .monitor_bpm import monitor_bpm
+
 from ..data.context import AcceleratorObjects
 
 
