@@ -1,8 +1,9 @@
 # pyml_solaris/__init__.py
 
-from .measure.__init__ import (
-    measure_dispersion, measure_bpm_response, monitor_bpm, measure_response_matrix,
-    measure_loco_data,
-)
-from .data.context import AcceleratorObjects
-from .data import globals
+from .measure.measure_dispersion import measure_dispersion
+from .measure.measure_bpm_response import measure_bpm_response
+from .measure.monitor_bpm import monitor_bpm
+from .measure.measure_loco_data import measure_loco_data
+from .measure.measure_response_matrix import measure_response_matrix
+
+from .data.globals import AcceleratorObjects
