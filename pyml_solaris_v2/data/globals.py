@@ -8,7 +8,6 @@ import numpy as np
 
 from typing import Sequence, Tuple, Optional, Union
 
-sys.path.insert(1, '../../other')   # Path to test tango script
 from tango import DeviceProxy, DevFailed
 
 
